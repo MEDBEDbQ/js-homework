@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+@mixin nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    border-radius: 10px;
+    list-style: none;
+}
+
+ul {
+    @include nav-menu;
+}
